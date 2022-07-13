@@ -3,18 +3,20 @@
   background-color: rgb(50, 167, 145);
   width: 100%;
 }
+
 .trybewarts-header-logo {
   display: flex;
-  height: 100px;  
+  height: 100px;
 }
+
 .trybewarts-login {
   display: flex;
   align-items: center;
-  
 }
+
 button {
   background-color: purple;
   color: white;
-  padding: 10px ;
+  padding: 10px;
   border: none;
 }
