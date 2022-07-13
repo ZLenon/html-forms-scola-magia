@@ -20,3 +20,13 @@ button {
   padding: 10px;
   border: none;
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-form {
+  width: 675px;
+  display: flex;
+}
+
