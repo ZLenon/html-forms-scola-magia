@@ -37,17 +37,16 @@ main {
   flex-direction: column;
 }
 
-#container-input input[type='text']{
+#container-input input {
   max-width: 50%;
-  width:100%;
+  width: 100%;
 }
-#container-input select{
+
+#container-input select {
   max-width: 50%;
-  width:100%;
+  width: 100%;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
-
-
