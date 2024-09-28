@@ -7,20 +7,28 @@
     font-family: sans-serif;
 }
 
-
-header {
+header {  
   background-color: aquamarine;
-  margin: 1vh 
+  margin: 1vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;     
 }
 .logoheader {
-  background-color: rgb(160, 248, 219);
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px; 
+}
+.titulo {  
+  text-align: center;
+  color: black;
  
 }
-.titulo {
-  
-  color: black;  
+form.form {
+  display: flex;
+  gap: 10px;    
 }
-
 .password {
   margin-right: 10px;
   padding: 5px;
@@ -35,6 +43,13 @@ header {
 }
 button {
   background-color: purple;
+  color: white;
+  padding: 10px 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+button:active {
+  background-color: rgb(77, 1, 77);
   color: white;
   padding: 10px 30px;
   border: 1px solid black;
