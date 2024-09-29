@@ -7,9 +7,9 @@ const validEmailSenha = () => {
   senhaTrue = 123456;
 
   if (email === emailTrue && senhaTrue === +senha) {
-    console.log("Ola Tryber");
+    alert("Ola Tryber");
   } else {
-    console.log("Email ou senha inválidos.");
+    alert("Email ou senha inválidos.");
   }
 };
 
