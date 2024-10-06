@@ -4,7 +4,7 @@
     box-sizing: border-box;
     border: 0;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
 }
 
 header {  
@@ -22,8 +22,7 @@ header {
 }
 .titulo {  
   text-align: center;
-  color: black;
- 
+  color: rgb(255, 255, 255);
 }
 form.form {
   display: flex;
@@ -48,7 +47,11 @@ button:active {
 }
 main {
   display: flex;
-  
+}
+
+.FormTitulo{
+  text-align: center;
+  padding: 15px 10px 10px 10px; 
 }
 
 #evaluation-form {
@@ -56,6 +59,7 @@ main {
   flex-direction: column;
   width: 675PX;
   justify-content: flex-start;
+
 }
 
 #trybewarts-forms-logo {
@@ -73,3 +77,31 @@ main {
   display: flex;
   justify-content: flex-start;
 }
+
+.logocasas {
+  margin: auto;
+  width: 500px;
+  height: 500px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+input[type="radio"]:hover, input[type="checkbox"]:hover {
+  cursor: pointer;
+}
+
+.form-two {
+  display: flex;
+}
+
+.label-family {  
+  margin: 5px;
+  width: 30%;  
+}
+.label-content {  
+  margin: 5px;
+  width: 67%;
+}
+

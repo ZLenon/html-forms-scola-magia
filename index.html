@@ -28,26 +28,82 @@
         />
         <button type="button" id="enterbutton">Entrar</button>
       </form>
-      <script src="index.js"></script>
     </header>
     <main>
       <form id="evaluation-form">
+        <h2 class="FormTitulo">Formulario de Avaliação</h2>
         <div class="row">
           <input type="text" id="input-name" placeholder="Nome" />
           <input type="text" id="input-lastname" placeholder="Sobrenome" />
         </div>
         <div class="row">
           <input type="text" id="input-email" placeholder="Email" />
-          <select id="house">
-            <option value="gitnoria-house">Gitnória</option>
-            <option value="reactpuff-house">Reactpuff</option>
-            <option value="corvinode-house">Corvinode</option>
-            <option value="pytherina-house" selected>Pytherina</option>
-          </select>
+          <label>
+            Casa:
+            <select id="house">
+              <option value="gitnoria-house">Gitnória</option>
+              <option value="reactpuff-house">Reactpuff</option>
+              <option value="corvinode-house">Corvinode</option>
+              <option value="pytherina-house" selected>Pytherina</option>
+            </select>
+          </label>
         </div>
+        <hr />
+        <div class="form-two">
+          <label class="label-family"
+            >Qual sua Familia?
+            <br />
+            <label>
+              <input type="radio" name="family" value="Frontend" />
+              Familia Frontend
+            </label>
+            <label>
+              <input type="radio" name="family" value="Backend" />
+              Familia Backend
+            </label>
+            <label>
+              <input type="radio" name="family" value="FullStack" />
+              Familia FullStack
+            </label>
+          </label>
+          <label class="label-content">
+            Qual conteudo voce esta com mais vontade de aprender?
+            <br />
+            <label>
+              HoFs
+              <input type="checkbox" class="subject" value="HoFs" />
+            </label>
+            <label>
+              Jest
+              <input type="checkbox" class="subject" value="Jest" />
+            </label>
+            <label>
+              Promises
+              <input type="checkbox" class="subject" value="Promises" />
+            </label>
+            <label>
+              React
+              <input type="checkbox" class="subject" value="React" />
+            </label>
+            <label>
+              SQL
+              <input type="checkbox" class="subject" value="SQL" />
+            </label>
+            <label>
+              Python
+              <input type="checkbox" class="subject" value="Python" />
+            </label>
+          </label>
+        </div>
+        <hr />
       </form>
-      <hr />
+      <img
+        class="logocasas"
+        src="./images/trybewarts-colored.svg"
+        id="trybewarts-forms-logo"
+      />
     </main>
-    <img src="./images/trybewarts-colored.svg" id="trybewarts-forms-logo" />
+
+    <script src="index.js"></script>
   </body>
 </html>
