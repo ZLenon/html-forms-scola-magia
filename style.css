@@ -68,7 +68,7 @@ main {
 }
 
 #input-name, #input-lastname, #input-email, #house {
-  margin: 5px;
+  margin: 5px 15px 5px 5px;
   padding: 5px;
   font-size: 14px;
   border-radius: 10px;
