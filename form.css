@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aquamarine;
+  margin: 1vh;
+  padding: 20px;     
+}
+.tituloPrincipal {
+  color: white;
+}
+
+.logoheader {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px; 
+}
+
+.informacoes {
+  display: flex;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  background-color: bisque;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+p {
+  margin:  10px 10px 10px 10px;
+}
+
+main {
+  display: flex;
+}
+button {
+  background-color: rgb(130, 0, 130);
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid black;  
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+ 
+  margin: auto;
+  width: 500px;
+  height: 500px;
+}

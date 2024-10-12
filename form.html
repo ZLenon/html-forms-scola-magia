@@ -4,21 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formulario</title>
+    <link rel="stylesheet" href="form.css" />
   </head>
   <body>
-    <label>
-      <h1>Informações Recebidas</h1>
-      <p id="name"></p>
-      <p id="sobreNome"></p>
-      <p id="email"></p>
+    <header>
+      <img src="./images/trybewarts-header-logo.svg" class="logoheader" />
+      <h1 class="tituloPrincipal">Informações Recebidas</h1>
+    </header>
+    <main>
+      <label class="informacoes">
+        <p id="name"></p>
+        <p id="sobreNome"></p>
+        <p id="email"></p>
 
-      <p id="casa"></p>
-      <p id="familia"></p>
-      <p id="aprender"></p>
-      <p id="avaliacao"></p>
-      <p id="comentario"></p>
-    </label>
-    <p><a href="index.html" target="_self">Voltar</a></p>
+        <p id="casa"></p>
+        <p id="familia"></p>
+        <p id="aprender"></p>
+        <p id="avaliacao"></p>
+        <p id="comentario"></p>
+      </label>
+      <img src="./images/trybewarts-colored.svg" id="trybewarts-forms-logo" />
+    </main>
+    <button type="button" id="buttonVoltar">Voltar</button>
     <script src="form.js"></script>
   </body>
 </html>

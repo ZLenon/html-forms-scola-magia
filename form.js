@@ -18,3 +18,10 @@ document.getElementById("familia").textContent = `Familia: ${familia}`;
 document.getElementById("aprender").textContent = `Aprender: ${aprender}`;
 document.getElementById("avaliacao").textContent = `Avaliacao: ${avaliacao}`;
 document.getElementById("comentario").textContent = `Comentario: ${comentario}`;
+
+const buttonVoltar = document.getElementById("buttonVoltar");
+
+buttonVoltar.addEventListener("click", () => {
+  // Redirecionar para a segunda página
+  window.location.href = "index.html";
+});
