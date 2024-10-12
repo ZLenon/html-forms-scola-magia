@@ -53,6 +53,8 @@ form.addEventListener("submit", function (event) {
   const sobreNome = document.getElementById("input-lastname").value;
   const casa = document.getElementById("house").value;
   const familias = document.getElementsByName("family");
+  const comment = document.getElementById("comment").value;
+  // --
   let selectedValue = null;
   // Percorrer a lista e verificar qual está marcado
   for (const radio of familias) {
@@ -77,7 +79,6 @@ form.addEventListener("submit", function (event) {
   const selectedRate = document.querySelector(
     'input[name="rate"]:checked'
   ).value;
-  const comment = document.getElementById("comment").value;
 
   // Armazenar no localStorage
   localStorage.setItem("name", name);
@@ -91,5 +92,5 @@ form.addEventListener("submit", function (event) {
   localStorage.setItem("commentario", comment);
 
   // Redirecionar para a segunda página
-  window.location.href = "form.html";
+  window.location.href = "./pages/form.html";
 });

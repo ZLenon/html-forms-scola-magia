@@ -33,7 +33,7 @@ header {
 .informacoes {
   display: flex;
   width: 500px;
-  height: 400px;
+  height: 450px;
   text-align: center;
   background-color: bisque;
   margin: 15px;
@@ -43,6 +43,7 @@ header {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: stretch;
+  
 }
 
 p {
@@ -51,6 +52,8 @@ p {
 
 main {
   display: flex;
+  padding-left: 1vh;
+  padding-right: 1vh;
 }
 button {
   background-color: rgb(130, 0, 130);
@@ -60,7 +63,8 @@ button {
   margin-left: 20px;
   margin-top: 5px;
   margin-bottom: 10px;
-  border: 1px solid black;  
+  border: 1px solid black;
+  cursor: pointer;  
 }
 
 #trybewarts-forms-logo {
