@@ -10,3 +10,6 @@ Neste projeto, foi desenvolvido uma página de formulário da Escola de Magia de
   - Criar formularios usando HTML
   - Usar Css 
   - Manipular DOM javascript
+
+
+ [Link do Projeto](https://zlenon.github.io/html-forms-scola-magia/)
