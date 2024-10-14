@@ -11,5 +11,6 @@ Neste projeto, foi desenvolvido uma página de formulário da Escola de Magia de
   - Usar Css 
   - Manipular DOM javascript
 
+### Link para acessar o projeto!
 
- [Link do Projeto](https://zlenon.github.io/html-forms-scola-magia/)
+- Link:  [Clique Aqui!!!](https://zlenon.github.io/html-forms-scola-magia/)
